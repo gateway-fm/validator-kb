@@ -1,4 +1,8 @@
-# Validators Knowledge Base
+# Table of contents
 
-Hello, world!
-Testing sync with git book
+* [Welcome!](README.md)
+* [Quick Start](quick-start.md)
+
+## Reference
+
+* [API Reference](reference/api-reference.md)
