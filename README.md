@@ -1,8 +1,8 @@
 # Welcome!
 
-## Welcome to MyAPI
+## Hello world
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+Welcome to ...
 
 ## Want to jump right in?
 
@@ -14,7 +14,7 @@ Feeling like an eager beaver? Jump in to the quick start docs and get making you
 
 ## Want to deep dive?
 
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
+Dive a little deeper and start exploring our example references:
 
 {% content-ref url="reference/api-reference.md" %}
 [api-reference.md](reference/api-reference.md)
