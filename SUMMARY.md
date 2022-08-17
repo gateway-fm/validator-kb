@@ -1,6 +1,9 @@
-# Validators Knowledge Base
+# Table of Contents
 
-* [Welcome!](README.md)
+Validators Knowledge Base
+Hello World!
+
+* [Welcome to Validators Knowledge Base](README.md)
 * [Quick Start](quick-start.md)
 
 ## Reference
