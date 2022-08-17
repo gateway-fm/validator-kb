@@ -1,8 +1,8 @@
-# Table of contents
+# Validators Knowledge Base
 
 * [Welcome!](README.md)
 * [Quick Start](quick-start.md)
 
 ## Reference
 
-* [API Reference](reference/api-reference.md)
+* [Example API Reference](reference/api-reference.md)
