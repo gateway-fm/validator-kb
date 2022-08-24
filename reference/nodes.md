@@ -25,7 +25,7 @@ a [separate chapter](validator-clients.md) about them, since the topic is very i
 To serve as a validator, both CL and EL needs to be up to date with the
 network. There are a couple of techniques of how to check that.
 
-All this healthchecks data should lead to a [monitoring tool](reference/monitoring.md) of your choice.
+All this healthchecks data should lead to a [monitoring tool](monitoring.md) of your choice.
 
 ### Internal healthchecks
 
@@ -45,7 +45,7 @@ possible to see how "old" is the current block of the node.
 Since sometimes the block proposals could be missed, it doesn't make sense to
 keep this threshold too tight, but if it is > 5 minutes old, it makes sense to
 mark the node as "unhealthy" and notify your [monitoring
-system](reference/monitoring.md).
+system](monitoring.md).
 
 ### Source Of Truth Checks (Forks)
 
