@@ -98,7 +98,7 @@ another node (or a file) and applies it w/o doing all the necessary checks.
 * Prysm: https://docs.prylabs.network/docs/prysm-usage/checkpoint-sync
 * Teku: https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/
 
-*** Checkpoint Sync From A File***
+**Checkpoint Sync From A File**
 
 For most of the CL nodes, you can store the latest state of the network into
 a file, in SSZ format and use that instead of another node. That is useful if
