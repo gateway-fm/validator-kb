@@ -73,6 +73,7 @@ It is important not to copy the full datadir because that could lead to multiple
 nodes having the same peer ID and having troubles connecting to the same peers.
 Eth1 p2p protocol devp2p forbids connecting multiple nodes with the same ID to
 the same peer. Only the first one will be connected, the rest will be dropped.
+To check the ID of your node use `admin_nodeInfo` RPC call, `enode` field.
 
 Files to copy:
 * Besu - <TBD>
