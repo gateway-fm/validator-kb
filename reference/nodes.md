@@ -18,7 +18,7 @@ Execution Layer (EL) node, one of
 * Nethermind
 
 This chapter doesn't include the information about validator clients, there is
-a [separate chapter](reference/validator-clients.md) about them, since the topic is very important.
+a [separate chapter](validator-clients.md) about them, since the topic is very important.
 
 ## Nodes Health
 
