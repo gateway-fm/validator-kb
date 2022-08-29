@@ -48,7 +48,9 @@ a good practice run different validator clients.
 
 There are two options on how it is possible to run them:
 
-* 
+* diversify via running them at the same time
+
+* diversify for backup purposes
 
 
 ## Validator Clients Redundancy
