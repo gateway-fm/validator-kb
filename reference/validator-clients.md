@@ -1,5 +1,4 @@
-Validator Clients
----
+# Validator Clients
 
 The validator client is the software that runs on top of a beacon node and
 attests to the exising chain as well as produces blocks. It is similar to

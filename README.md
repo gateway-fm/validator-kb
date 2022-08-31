@@ -4,15 +4,17 @@ Welcome to the knowledge base of validator documentation.
 
 ## Table Of Contents
 
+* [The Merge]
+
 * [Nodes](reference/nodes.md)
 
 * [Validator Clients](reference/validator-clients.md)
 
-* [Backups, Disaster Recovery](reference/disaster-recovery.md)
-
-* [High Availability](reference/ha.md)
-
 * [Monitoring & Alerting](reference/monitoring.md)
+
+* [High Availability]
+
+* [Backups, Disaster Recovery]
 
 * Clouds & Clusters
 
