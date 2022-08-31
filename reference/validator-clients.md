@@ -16,18 +16,24 @@ client.
 
 Each [beacon node](nodes.md) team has a validator client.
 
-* Prysm
-* Lighthouse
+* [Prysm](https://docs.prylabs.network/docs/how-prysm-works/prysm-validator-client)
+* [Lighthouse](https://lighthouse-book.sigmaprime.io/mainnet-validator.html#docker-users)
 * Nimbus
 * Teku
 
-Since the separate validator clients are using a standard API [LINK??], you
-don't have to match them with the beacon nodes. For example, Lighthouse's
+Since the separate validator clients are using [standard APIs](https://ethereum.github.io/beacon-APIs/), you don't have to match them with the beacon nodes. For example, Lighthouse's
 validator client can easily be used with Prysm, etc.
 
 ## External Validator Clients
 
-* Vouch
+### [Vouch](https://github.com/attestantio/vouch) 
+
+Vouch is a multi-node highly-available validator client, developed by
+Attestant. It allows to use multiple nodes at once to make sure that your
+system is always as available and as efficient as possible.
+
+It has a relatively steep learning curve, but it is very flexible in its
+configuration.
 
 ## External Signer / Wallet
 
@@ -38,7 +44,7 @@ or "remote" signer. That allows for better separation of responsibilities, and
 for smaller attach surface, because only the machine with the keys needs most
 protection.
 
-**[Dirk](https://github.com/attestantio/dirk)**. 
+### [Dirk](https://github.com/attestantio/dirk)
 
 Supported by Vouch. Dirk is a very comprehensive external signer, with
 [extensive system of permissions](https://github.com/attestantio/dirk/blob/master/docs/permissions.md)
@@ -53,7 +59,7 @@ only Vouch as a validator client.
     Dirk](https://github.com/attestantio/dirk/blob/master/docs/getting_started.md)
 
 
-**[Web3 Signer](https://docs.web3signer.consensys.net/en/latest/).**
+### [Web3 Signer](https://docs.web3signer.consensys.net/en/latest/)
 
 Supported [Teku](https://docs.teku.consensys.net/en/latest/HowTo/External-Signer/Use-External-Signer/), 
 [Prysm](https://docs.prylabs.network/docs/wallet/web3signer) and

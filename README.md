@@ -4,10 +4,24 @@ Welcome to the knowledge base of validator documentation.
 
 ## Table Of Contents
 
-{% content-ref url="reference/nodes.md" %}
-[nodes.md](reference/nodes.md)
-{% endcontent-ref %}
+* [Nodes](reference/nodes.md)
 
-{% content-ref url="reference/validator-clients.md" %}
-[validator-clients.md](reference/validator-clients.md)
-{% endcontent-ref %}
+* [Validator Clients](reference/validator-clients.md)
+
+* [Backups, Disaster Recovery](reference/disaster-recovery.md)
+
+* [High Availability](reference/ha.md)
+
+* [Monitoring & Alerting](reference/monitoring.md)
+
+* Clouds & Clusters
+
+* Key Management
+
+* Security Guidelines
+
+* Onboarding users
+
+* Upgrades & Migrations
+
+* FAQ
