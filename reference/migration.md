@@ -1,3 +1,7 @@
+Migration
+---
+
+
 How to best migrate? What needs to be backed up?
 What needs to come with you to the new system?
 How to check you are really offline?

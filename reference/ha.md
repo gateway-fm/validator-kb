@@ -1,4 +1,6 @@
-## HA
+High Availability
+---
+
     - Geographical Distribution
     - Client Diversity
     - SSV?

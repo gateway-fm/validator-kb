@@ -1,3 +1,6 @@
+Security
+---
+
 Good inventory management hygene: No unknown servers on infra
 MFA on servers
 Use SSH private keys instead of passwords

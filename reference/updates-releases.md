@@ -1,3 +1,6 @@
+Updates & Releases
+---
+
 Channels to listen to for updates, hard forks, attack mitigations
 How to do rolling updates? Go offline for updates?
 How often to do updates? When to know an update is urgent?
