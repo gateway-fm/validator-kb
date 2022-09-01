@@ -77,11 +77,11 @@ To check the ID of your node use `admin_nodeInfo` RPC call, `enode` field.
 
 Files to copy:
 * Besu - <TBD>
-* Erigon - `<datadir>/chaindata` && `<datadir>/snapshots`.
+* Erigon - `<datadir>/chaindata` && `<datadir>/snapshots` (also need to copy `<datadir>/clique if you have it).
 * Geth - <TBD>
 * Nethermind - `<datadir>/db`
 
-### Provisioning Consensus Layer
+### Provisioning Consensus Layer (Checkpoint Sync)
 
 First, it is important to note that provisioning consensus layer via snapshots
 of data folder is a bad practice. Multiple nodes might end up with the same
@@ -99,6 +99,20 @@ another node (or a file) and applies it w/o doing all the necessary checks.
 * Prysm: https://docs.prylabs.network/docs/prysm-usage/checkpoint-sync
 * Teku: https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/
 
+**Public Checkpoint Sync Endpoints**
+
+Usually, you should strive to use your own nodes as source of data for checkpoint sync, but if you can’t, there are a couple of public places where you can sync from:
+
+* ethdevops (link TBD)
+* infura (link TBD)
+* gateway.fm (link TBD)
+* nethermind (link TBD)
+
+When syncing from one of the public sources, always validate that your node is synced to the correct chain. Use [this article](https://notes.ethereum.org/@launchpad/checkpoint-sync#Step-4) to learn how to do that.
+
+In Prysm you can also use `—-weak-subjectivity-checkpoint` flag (read more [here](https://docs.prylabs.network/docs/prysm-usage/parameters)).
+
+
 **Checkpoint Sync From A File**
 
 For most of the CL nodes, you can store the latest state of the network into
@@ -106,10 +120,69 @@ a file, in SSZ format and use that instead of another node. That is useful if
 you don't have any trusted node or you have to re-created the setup after it
 being completely lost.
 
-A good practice is to keep this file upgraded once every week.
+Most of the nodes require both the latest finalized state and the block corresponding to the finalized state.
+
+A good practice is to keep these files upgraded once every week.
+
+How to create these files, you can read here: [“Sync from checkpoint files” in Nimbus Guide](https://nimbus.guide/trusted-node-sync.html#sync-from-checkpoint-files). The files obtained there are cross-node compatible.
 
 ## Upgrading Nodes
 
+Upgrading nodes in time is important for two reasons.
+
+Firstly, there are security issues that are fixed in the nodes all the time.
+
+Secondly, it is important to keep track of the hardforks. If hardfork comes and your node is not upgraded, it will use the wrong chain fork.
+
+**Being informed of node upgrades and hardforks**
+
+Most of the nodes are on GitHub. There is [a feature to notify of new releases](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions). Also you can use this [Slack bot](https://github.com/nightskylark/github-releases-slack-notifier) that notifies about new releases of software.
+
+There are the official channels to follow on Twitter, to be aware of new releases, bugs and features.
+
+Execution layer: 
+
+* Geth
+
+* Erigon
+
+* Nethermind 
+
+Consensus layer:
+
+* Prysm
+
+* Lighthouse
+
+* Lodestar  
+
+* Teku
+
+* Nimbus
+
+Validator clients:
+
+* Dirk
+
+* Vouch
+
+
+Other channels of information about upcoming changes to the network:
+
+* Ethstaker
+
+* Ethereum Foundation twitter and blog
+
+
+**Canary Nodes** 
+
+Since new releases of nodes can contain bugs, and often critical ones, it is important not to upgrade all nodes at once. 
+
+Good practice is to have “canary” nodes that are upgraded first and monitored for a couple of days (important to get the node through at least one restart through the process, in the past there were cases when the data corruption was only visible after restarts).
+
+If canary nodes show no regressions after 3-7 days, all nodes are upgraded to the new release.
+
+Always keep at least one backup of the node data from the previous build to be able to downgrade! Sometimes nodes update the format of embedded database and after migration it is impossible to go back.
 
 ## Security, Networking & Sentries
 
