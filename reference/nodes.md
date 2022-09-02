@@ -78,7 +78,7 @@ To check the ID of your node use `admin_nodeInfo` RPC call, `enode` field.
 Files to copy:
 * Besu - <TBD>
 * Erigon - `<datadir>/chaindata` && `<datadir>/snapshots` (also need to copy `<datadir>/clique if you have it).
-* Geth - <TBD>
+* Geth - `<datadir>`
 * Nethermind - `<datadir>/db`
 
 ### Provisioning Consensus Layer (Checkpoint Sync)
@@ -103,10 +103,16 @@ another node (or a file) and applies it w/o doing all the necessary checks.
 
 Usually, you should strive to use your own nodes as source of data for checkpoint sync, but if you can’t, there are a couple of public places where you can sync from:
 
-* ethdevops (link TBD)
-* infura (link TBD)
-* gateway.fm (link TBD)
-* nethermind (link TBD)
+* Open Endpoints
+    * Ethereum Foundation
+        * Goerli: https://goerli.checkpoint-sync.ethdevops.io
+        * Sepolia: https://sepolia.checkpoint-sync.ethdevops.io
+        * Mainnet: TBD
+    * gateway.fm (link TBD)
+    * nethermind (link TB
+
+* Registration Needed
+    * Infura: infura.io; beacon API.
 
 When syncing from one of the public sources, always validate that your node is synced to the correct chain. Use [this article](https://notes.ethereum.org/@launchpad/checkpoint-sync#Step-4) to learn how to do that.
 
@@ -142,23 +148,34 @@ There are the official channels to follow on Twitter, to be aware of new release
 
 Execution layer: 
 
-* Geth
+* Geth: 
+    * Twitter: https://twitter.com/go_ethereum
 
-* Erigon
+* Erigon: 
+    * Twitter: https://twitter.com/erigoneth
+    * Newsletter: https://erigon.substack.com
 
-* Nethermind 
+* Nethermind: 
+    * Twitter: https://twitter.com/nethermindeth
+    * Blog: https://medium.com/nethermind-eth
 
 Consensus layer:
 
 * Prysm
+    * Twitter: https://twitter.com/prylabs
 
 * Lighthouse
+    * Twitter: https://twitter.com/sigp_io
 
-* Lodestar  
+* Lodestar
+    * Twitter: https://twitter.com/lodestar_eth
 
-* Teku
+* Teku:
+    * Twitter: https://twitter.com/Teku_ConsenSys
 
-* Nimbus
+* Nimbus: 
+    * Twitter: https://twitter.com/ethnimbus
+    * Newsletter: https://subscribe.nimbus.guide/ 
 
 Validator clients:
 
