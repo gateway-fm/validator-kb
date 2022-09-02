@@ -93,11 +93,11 @@ Good news, is that all CL nodes have a cross-compatbile way of syncing quickly:
 another node (or a file) and applies it w/o doing all the necessary checks.
 **Only use trusted source nodes for Checkpoint sync!**.
 
-* Lighthouse: https://lighthouse-book.sigmaprime.io/checkpoint-sync.html
-* Lodestar: (use `--checkpointSyncUrl`, see https://chainsafe.github.io/lodestar/reference/cli/)
-* Nimbus: https://nimbus.guide/trusted-node-sync.html
-* Prysm: https://docs.prylabs.network/docs/prysm-usage/checkpoint-sync
-* Teku: https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/
+* Lighthouse: [https://lighthouse-book.sigmaprime.io/checkpoint-sync.html](https://lighthouse-book.sigmaprime.io/checkpoint-sync.html)
+* Lodestar: (use `--checkpointSyncUrl`, see [https://chainsafe.github.io/lodestar/reference/cli/)](https://chainsafe.github.io/lodestar/reference/cli/))
+* Nimbus: [https://nimbus.guide/trusted-node-sync.html](https://nimbus.guide/trusted-node-sync.html)
+* Prysm: [https://docs.prylabs.network/docs/prysm-usage/checkpoint-sync](https://docs.prylabs.network/docs/prysm-usage/checkpoint-sync)
+* Teku: [https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/](https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/)
 
 **Public Checkpoint Sync Endpoints**
 
@@ -105,14 +105,14 @@ Usually, you should strive to use your own nodes as source of data for checkpoin
 
 * Open Endpoints
     * Ethereum Foundation
-        * Goerli: https://goerli.checkpoint-sync.ethdevops.io
-        * Sepolia: https://sepolia.checkpoint-sync.ethdevops.io
+        * Goerli: [https://goerli.checkpoint-sync.ethdevops.io](https://goerli.checkpoint-sync.ethdevops.io)
+        * Sepolia: [https://sepolia.checkpoint-sync.ethdevops.io](https://sepolia.checkpoint-sync.ethdevops.io)
         * Mainnet: TBD
     * gateway.fm (link TBD)
     * nethermind (link TB
 
 * Registration Needed
-    * Infura: infura.io; beacon API.
+    * Infura: [infura.io](https://infura.io); beacon API.
 
 When syncing from one of the public sources, always validate that your node is synced to the correct chain. Use [this article](https://notes.ethereum.org/@launchpad/checkpoint-sync#Step-4) to learn how to do that.
 
@@ -149,33 +149,33 @@ There are the official channels to follow on Twitter, to be aware of new release
 Execution layer: 
 
 * Geth: 
-    * Twitter: https://twitter.com/go_ethereum
+    * Twitter: [https://twitter.com/go_ethereum](https://twitter.com/go_ethereum)
 
 * Erigon: 
-    * Twitter: https://twitter.com/erigoneth
-    * Newsletter: https://erigon.substack.com
+    * Twitter: [https://twitter.com/erigoneth](https://twitter.com/erigoneth)
+    * Newsletter: [https://erigon.substack.com](https://erigon.substack.com)
 
 * Nethermind: 
-    * Twitter: https://twitter.com/nethermindeth
-    * Blog: https://medium.com/nethermind-eth
+    * Twitter: [https://twitter.com/nethermindeth](https://twitter.com/nethermindeth)
+    * Blog: [https://medium.com/nethermind-eth](https://medium.com/nethermind-eth)
 
 Consensus layer:
 
 * Prysm
-    * Twitter: https://twitter.com/prylabs
+    * Twitter: [https://twitter.com/prylabs](https://twitter.com/prylabs)
 
 * Lighthouse
-    * Twitter: https://twitter.com/sigp_io
+    * Twitter: [https://twitter.com/sigp_io](https://twitter.com/sigp_io)
 
 * Lodestar
-    * Twitter: https://twitter.com/lodestar_eth
+    * Twitter: [https://twitter.com/lodestar_eth](https://twitter.com/lodestar_eth)
 
 * Teku:
-    * Twitter: https://twitter.com/Teku_ConsenSys
+    * Twitter: [https://twitter.com/Teku_ConsenSys](https://twitter.com/Teku_ConsenSys)
 
 * Nimbus: 
-    * Twitter: https://twitter.com/ethnimbus
-    * Newsletter: https://subscribe.nimbus.guide/ 
+    * Twitter: [https://twitter.com/ethnimbus](https://twitter.com/ethnimbus)
+    * Newsletter: [https://subscribe.nimbus.guide/ ](https://subscribe.nimbus.guide/ )
 
 Validator clients:
 
