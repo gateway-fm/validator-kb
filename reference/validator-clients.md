@@ -108,3 +108,17 @@ look at multiple beacon nodes at the same time to use for block proposals and
 attestation. That increases chances of validator being available even if one of
 the nodes is unavailable.
 
+## Slashings & Slashing DB
+
+Slashing of the Validator means it being ejected from the set of validators immediately and get some others penalties.
+
+There are 3 types of slasheable offences in the Beacon Chain:
+
+* Being a block proposer, and proposing 2 different blocks for the same slot
+* Being an attester and signing two different attestations with the same target slot (attesting for two different blocks for the same slot, “double voting”)
+* Being an attester and voting against history.
+
+Most often, slashing happens when > 1 Validator client shares the same key set.
+
+See also: [Rewards & Penalties on Eth2.0](https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/)
+
