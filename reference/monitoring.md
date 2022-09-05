@@ -42,13 +42,6 @@ That means being ready to act in the middle of the night, in the weekends, etc. 
 An example of the on-call policy could be found in this [GitLab On-Call Handbook](https://about.gitlab.com/handbook/on-call/).
 
 
-## Slashable violations — react quickly
-
-* Double-attesting from the same node in the same epoch
-
-* Attesting to an invalid blocks  
-
-
 ## Inactivity leaks — have more time
 
 Inactivity leak means your node was chosen to do a certain duty (attesting for the chain head or producing a block) and didn’t do its job in time.
