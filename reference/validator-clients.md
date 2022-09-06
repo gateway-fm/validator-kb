@@ -121,3 +121,5 @@ see also [Slashing And Penalties](slashings-and-penalties.md)
 ## Further Reading
 
 * [Eth 2.0 Annotated Spec: Validator Duties, Rewards & Penalties](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#aside-validator-duties-rewards-and-penalties)
+
+* [Eth 2.0 Annotated Spec](https://benjaminion.xyz/eth2-annotated-spec/)
