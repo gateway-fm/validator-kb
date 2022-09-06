@@ -6,6 +6,8 @@ Welcome to the knowledge base of validator documentation.
 
 * [The Merge]
 
+* [Slashing & Penalties](reference/slashing-and-penalties.md)
+
 * [Nodes](reference/nodes.md)
 
 * [Validator Clients](reference/validator-clients.md)

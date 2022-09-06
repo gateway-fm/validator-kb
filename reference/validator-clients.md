@@ -71,11 +71,13 @@ TBD
 
 ## Validator Performance Metrics
 
-(see also [eth2 specs with comments](link???))
-
 ### Participation Rate
 
+TBD
+
 ### Block Proposal
+
+TBD
 
 ## Validator Client Diversity
 
@@ -110,15 +112,12 @@ the nodes is unavailable.
 
 ## Slashings & Slashing DB
 
-Slashing of the Validator means it being ejected from the set of validators immediately and get some others penalties.
+To prevent being slahed, each validator client keeps a slashing DB that has
+slasheable blocks to avoid attesting.
 
-There are 3 types of slasheable offences in the Beacon Chain:
+see also [Slashing And Penalties](slashings-and-penalties.md)
 
-* Being a block proposer, and proposing 2 different blocks for the same slot
-* Being an attester and signing two different attestations with the same target slot (attesting for two different blocks for the same slot, “double voting”)
-* Being an attester and voting against history.
 
-Most often, slashing happens when > 1 Validator client shares the same key set.
+## Further Reading
 
-See also: [Rewards & Penalties on Eth2.0](https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/)
-
+* [Eth 2.0 Annotated Spec: Validator Duties, Rewards & Penalties](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#aside-validator-duties-rewards-and-penalties)

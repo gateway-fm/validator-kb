@@ -1,6 +1,10 @@
-High Availability
----
+# High Availability
 
+## Further Reading
+
+* [Slashing & Penalties](slashing-and-penalties.md)
+
+## BACKLOG
     - Geographical Distribution
     - Client Diversity
     - SSV?
