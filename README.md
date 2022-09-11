@@ -14,7 +14,7 @@ Welcome to the knowledge base of validator documentation.
 
 * [Monitoring & Alerting](reference/monitoring.md)
 
-* [High Availability]
+* [High Availability](reference/ha.md)
 
 * [Backups, Disaster Recovery]
 
