@@ -4,7 +4,7 @@ Welcome to the knowledge base of validator documentation.
 
 ## Table Of Contents
 
-* [The Merge]
+* [The Merge](reference/the-merge.md)
 
 * [Slashing & Penalties](reference/slashing-and-penalties.md)
 
