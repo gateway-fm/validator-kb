@@ -22,7 +22,7 @@ a [separate chapter](validator-clients.md) about them, since the topic is very i
 
 ## Nodes Health
 
-To serve as a validator, both CL and EL needs to be up to date with the
+To serve as a validator, both CL and EL need to be up to date with the
 network. There are a couple of techniques of how to check that.
 
 All this healthchecks data should lead to a [monitoring tool](monitoring.md) of your choice.
@@ -64,7 +64,7 @@ nodes are ready to be validated.
 
 There are ways of how to quickly provision nodes on both layers.
 
-### Provisining Execution Layer
+### Provisioning Execution Layer
 
 Execution layer node is the heavier one of the two. There is no universal way
 of quickly provisioning the node. The usual way is to copy some files from a datadir.
@@ -88,7 +88,7 @@ of data folder is a bad practice. Multiple nodes might end up with the same
 node ID, and that will bring issues during peers discovery (only one node with
 a certain ID could be connected to the peers).
 
-Good news, is that all CL nodes have a cross-compatbile way of syncing quickly:
+Good news, is that all CL nodes have a cross-compatible way of syncing quickly:
 **checkpoint sync**. What it does, is it takes the latest blockchain state from
 another node (or a file) and applies it w/o doing all the necessary checks.
 **Only use trusted source nodes for Checkpoint sync!**.
@@ -123,7 +123,7 @@ In Prysm you can also use `—-weak-subjectivity-checkpoint` flag (read more [he
 
 For most of the CL nodes, you can store the latest state of the network into
 a file, in SSZ format and use that instead of another node. That is useful if
-you don't have any trusted node or you have to re-created the setup after it
+you don't have any trusted node or you have to recreate the setup after it
 being completely lost.
 
 Most of the nodes require both the latest finalized state and the block corresponding to the finalized state.
