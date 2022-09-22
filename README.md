@@ -1,6 +1,6 @@
 # Welcome!
 
-[![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/gitpoap/gitpoap-docs/badge)](https://www.gitpoap.io/gh/gitpoap/gitpoap-docs)
+[![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/gateway-fm/validator-kb/badge)](https://www.gitpoap.io/gh/gitpoap/gitpoap-docs)
 
 Welcome to the knowledge base of validator documentation.
 
