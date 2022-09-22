@@ -1,7 +1,7 @@
 # Validator Clients
 
 The validator client is the software that runs on top of a beacon node and
-attests to the exising chain as well as produces blocks. It is similar to
+attests to the existing chain as well as produces blocks. It is similar to
 a mining software for the old POW version of ETH.
 
 Validator client != validator. Validator is a pair of (pubk, pk) that is used
@@ -9,7 +9,7 @@ to sign attestations and blocks.
 
 Each validator client could handle multiple validators. 
 How many? There is no universal answer, but for eth mainnet,
-most organiations put 100 or 200 validators per a single validator
+most organizations put 100 or 200 validators per a single validator
 client.
 
 ## Built-in Validator Clients
@@ -39,7 +39,7 @@ configuration.
 
 The biggest risk of running a validator client is keys being lost or stolen. To
 improve security over that, it is advised to not keep the keys on the
-nodes/validator clients, but instead use a separate client, so called "externa"
+nodes/validator clients, but instead use a separate client, so-called "externa"
 or "remote" signer. That allows for better separation of responsibilities, and
 for smaller attach surface, because only the machine with the keys needs most
 protection.
@@ -92,7 +92,7 @@ There are two options on how it is possible to run them:
 **Diversify online validator clients**: run different validator clients at the
 same time, for different validators. For example, run Vouch for validators 0 to
 99, run Lighthouse for validators 100 to 199, etc. Upside: the whole system is
-resilient toward issues in a signle validator clients, not all of them will go
+resilient toward issues in a single validator clients, not all of them will go
 down at the same time. Downside: adds complications to the setup, monitoring
 and managing validator clients.
 
@@ -112,7 +112,7 @@ the nodes is unavailable.
 
 ## Slashings & Slashing DB
 
-To prevent being slahed, each validator client keeps a slashing DB that has
+To prevent being slashed, each validator client keeps a slashing DB that has
 slasheable blocks to avoid attesting.
 
 see also [Slashing And Penalties](slashings-and-penalties.md)
