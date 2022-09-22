@@ -8,6 +8,14 @@
 
 Usually it is good to monitor for a lot of things.
 
+### EthereumPools
+
+There are services offering external monitoring of validator performance.
+
+One of them is [EthereumPools.info](https://ethereumpools.info/). You can
+contact the authors to add your own pool of validators there and get some
+public metrics there and be contacted for extra information.
+
 ### Self-Hosted Solutions
 
 Grafana, Prometheus
