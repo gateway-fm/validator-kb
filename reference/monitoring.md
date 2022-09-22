@@ -16,6 +16,9 @@ One of them is [EthereumPools.info](https://ethereumpools.info/). You can
 contact the authors to add your own pool of validators there and get some
 public metrics there and be contacted for extra information.
 
+To get your nodes monitored, contact via Twitter [twitter.com/ethereumPools](https://twitter.com/ethereumPools).
+
+
 ### Self-Hosted Solutions
 
 Grafana, Prometheus
