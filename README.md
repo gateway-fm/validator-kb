@@ -26,6 +26,6 @@ Welcome to the knowledge base of validator documentation.
 
 * Onboarding users
 
-* Upgrades & Migrations
+* [Updates & Releases](reference/updates-releases.md)
 
 * FAQ
