@@ -18,6 +18,8 @@ Welcome to the knowledge base of validator documentation.
 
 * [High Availability](reference/ha.md)
 
+* [Proposer-Builder Separation & MEV](reference/mev.md)
+
 * [Backups, Disaster Recovery]
 
 * Clouds & Clusters

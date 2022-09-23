@@ -77,6 +77,18 @@ If canary nodes show no regressions after 3-7 days, all nodes are upgraded to th
 
 Always keep at least one backup of the node data from the previous build to be able to downgrade! Sometimes nodes update the format of embedded database and after migration it is impossible to go back.
 
+## Node Health After Upgrades
+
+It is important to check the performance characteristics of the nodes after
+upgrading. For the specific metrics to track, see [Monitoring](monitoring.md).
+
+When using canary nodes or rolling updates, make sure to keep upgraded nodes to
+a separate group in your [monitoring system](monitoring.md), so you can compare
+baseline parameters, such as participation rates, resource usage, etc.
+
+
+## Servers: Harware & Software
+
 
 Channels to listen to for updates, hard forks, attack mitigations
 How to do rolling updates? Go offline for updates?
@@ -84,4 +96,3 @@ How often to do updates? When to know an update is urgent?
 How to rollback an update? How do know what update needs to be rolled back (what metrics to check)?
 How to get rid of a node and start fresh if an update corrupted a DB?
 Patch management for OS/Hardware?
-How to backup keys? When to restore from backup? When/How to use WS sync?
