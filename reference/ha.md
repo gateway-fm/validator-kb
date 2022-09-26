@@ -86,7 +86,11 @@ make sure that you have a diverse enough set of nodes.
 
 * [Slashing & Penalties](slashing-and-penalties.md)
 
-* [Client Diversity Dashboard](TODO: link?)
+* [Client Diversity Dashboard](https://clientdiversity.org)
+
+* [EtherNodes: Execution Layer Stats](https://ethernodes.org)
+
+* [NodeWatch: Consensus Layer Stats](https://www.nodewatch.io)
 
 
 ## BACKLOG

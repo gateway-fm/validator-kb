@@ -28,3 +28,4 @@ You can read more about MEV-Boost and how to set it up there:
 * [What is MEV Boost?](https://www.alchemy.com/overviews/mev-boost)
 
 
+**MEV-Boost** depends on relayers to build blocks. Relayers are not only controlled and hosted by Flashbots, there are also 3rd party providers. Relayers code is open source. 
