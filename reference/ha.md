@@ -107,5 +107,5 @@ make sure that you have a diverse enough set of nodes.
 
 ## Resource Scaling
 Extra space to allocate in terms of non-finality / Or being able to extend the filesystem quickly
-Info on archive node and what it means in CL context
+
 When/How to scale up the setup? What to look out for while scaling?
