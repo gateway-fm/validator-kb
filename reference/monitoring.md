@@ -6,7 +6,7 @@
 
 ## Monitoring
 
-Usually it is good to monitor for a lot of things.
+Usually it is good to monitor for a lot of things, including normal ops metrics and blockchain-specific metrics.
 
 ### EthereumPools
 
@@ -18,14 +18,20 @@ public metrics there and be contacted for extra information.
 
 To get your nodes monitored, contact via Twitter [twitter.com/ethereumPools](https://twitter.com/ethereumPools).
 
+### Beaconcha.in Mobile App
 
-### Self-Hosted Solutions
+* [Beaconcha.in Mobile App](https://kb.beaconcha.in/beaconcha.in-explorer/mobile-app-less-than-greater-than-beacon-node) allows monitoring your validators one-by-one and also alerts you when something goes wrong.
 
-Grafana, Prometheus
 
-### SaaS
+### Grafana
 
-DataDog
+[Grafana dashboard for validators](https://grafana.com/grafana/dashboards/13481-eth-validators/). This one looks like it wasn’t touched for a long time, so it might not be a good “out of the box” solutions, but might be a first step towards your own dashboard with the data you need.
+
+[RocketPool Grafana Dashboards for nodes](https://docs.rocketpool.net/guides/node/grafana.html#importing-the-rocket-pool-dashboard). Rocket Pool provides multiple dashboards for different types for [nodes](nodes.md) and [validator clients](validator-clients.md)
+
+### DataDog
+
+TBD
 
 ## Alerting
 
@@ -71,6 +77,16 @@ That means that you have some choice in how to handle them:
 ## Delays in attestations (node suboptimal performance)
 
 
+
+## Further Reading
+
+Want to learn more? Here are some articles you might find useful.
+
+* [Monitoring Ethereum Staking Infrastructure At Scale](https://www.kiln.fi/post/monitoring-ethereum-staking-infrastructure-at-scale) by Kiln.
+
+—-
+
+## TBD 
 
 
 * Intro to standard beacon API & metrics (ideally we have open sourced dashboards by then)

@@ -24,11 +24,11 @@ Welcome to the knowledge base of validator documentation.
 
 * Clouds & Clusters
 
-* Key Management
+* [Key Management](reference/keys.md)
 
 * Security Guidelines
 
-* Onboarding users
+* [Onboarding users](reference/deposits.md)
 
 * [Updates & Releases](reference/updates-releases.md)
 
