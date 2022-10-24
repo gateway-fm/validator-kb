@@ -74,7 +74,7 @@ That means being ready to act in the middle of the night, in the weekends, etc. 
 An example of the on-call policy could be found in this [GitLab On-Call Handbook](https://about.gitlab.com/handbook/on-call/).
 
 
-## Inactivity leaks — have more time
+## Inactivity leaks
 
 Inactivity leak means your node was chosen to do a certain duty (attesting for the chain head or producing a block) and didn’t do its job in time.
 
