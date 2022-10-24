@@ -78,8 +78,3 @@ What channels to reach out if its a possible vulnerability?
 ## Incident Response
 What to look for first? When do you raise an alarm?
 First steps required during incidence response
-
-
-    - Regular Monitoring
-    - On-Call & Alerting
-    - Blockchain Events Monitoring
