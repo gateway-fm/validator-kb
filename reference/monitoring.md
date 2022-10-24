@@ -26,6 +26,8 @@ To get your nodes monitored, contact via Twitter [twitter.com/ethereumPools](htt
 
 [Grafana dashboard for validators](https://grafana.com/grafana/dashboards/13481-eth-validators/). This one looks like it wasn’t touched for a long time, so it might not be a good “out of the box” solutions, but might be a first step towards your own dashboard with the data you need.
 
+[RocketPool Grafana Dashboards for nodes](https://docs.rocketpool.net/guides/node/grafana.html#importing-the-rocket-pool-dashboard). Rocket Pool provides multiple dashboards for different types for [nodes](nodes.md) and [validator clients](validator-clients.md)
+
 **Client Teams Dashboards**
 
 * [Prysm Grafana Dashboard](https://docs.prylabs.network/docs/prysm-usage/monitoring/grafana-dashboard)
@@ -38,16 +40,13 @@ To get your nodes monitored, contact via Twitter [twitter.com/ethereumPools](htt
 
 * [Teku Grafana Dashboard](https://docs.teku.consensys.net/en/latest/HowTo/Monitor/Metrics/)
 
-[RocketPool Grafana Dashboards for nodes](https://docs.rocketpool.net/guides/node/grafana.html#importing-the-rocket-pool-dashboard). Rocket Pool provides multiple dashboards for different types for [nodes](nodes.md) and [validator clients](validator-clients.md)
-
-
 ### Eth2 Monitor (StakeFish)
 
 [Eth2 Monitor](https://github.com/stakefish/eth2-monitor) from StakeFish not only monitors attestation performance with Slack integration, it also allows to look up for a maintenance window of 6.4 minutes (1 epoch size). This maintenance window means during the next epoch there will no be block proposals from these validators so you don't lose the slot.
 
 ### DataDog
 
-TBD
+[DataDog](https://www.datadoghq.com) is a SaaS for monitoring and alerting. It has a prometheus-compatible APIs to scrape data from hosts, so you can use the same metrics from the nodes or from the validator clients.
 
 ## Alerting
 
