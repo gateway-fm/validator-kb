@@ -6,6 +6,8 @@ Welcome to the knowledge base of validator documentation.
 
 ## Table Of Contents
 
+* [Basics](reference/basics.md)
+
 * [The Merge](reference/the-merge.md)
 
 * [Slashing & Penalties](reference/slashing-and-penalties.md)
