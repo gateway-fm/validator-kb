@@ -32,3 +32,4 @@ These are the keys to an account where the transaction fees are being collected.
 
 ## Copper
 
+## Balance

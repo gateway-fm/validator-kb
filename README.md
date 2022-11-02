@@ -24,6 +24,8 @@ Welcome to the knowledge base of validator documentation.
 
 * [Proposer-Builder Separation & MEV](reference/mev.md)
 
+* [Resources & Scaling](reference/resources.md) 
+
 * [Backups, Disaster Recovery]
 
 * Clouds & Clusters

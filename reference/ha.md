@@ -98,14 +98,3 @@ make sure that you have a diverse enough set of nodes.
 * [EtherNodes: Execution Layer Stats](https://ethernodes.org)
 
 * [NodeWatch: Consensus Layer Stats](https://www.nodewatch.io)
-
-
-## BACKLOG
-    - Resources scaling
-        - CPU, RAM
-        - Disks
-
-## Resource Scaling
-Extra space to allocate in terms of non-finality / Or being able to extend the filesystem quickly
-
-When/How to scale up the setup? What to look out for while scaling?

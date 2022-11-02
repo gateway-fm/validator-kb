@@ -148,6 +148,4 @@ see [Upgrades and Releases](upgrades-releases.md)
 
 ## Security, Networking & Sentries
 
-## Hardware Specs & Cloud Machines
-
 ## Troubleshooting
