@@ -16,7 +16,9 @@ Welcome to the knowledge base of validator documentation.
 
 * [Validator Clients](reference/validator-clients.md)
 
-* [Monitoring & Alerting](reference/monitoring.md)
+* [Monitoring](reference/monitoring.md)
+    
+* [Alerting & Incident Response](reference/alerting.md)
 
 * [High Availability](reference/ha.md)
 

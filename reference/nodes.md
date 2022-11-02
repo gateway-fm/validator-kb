@@ -113,25 +113,20 @@ another node (or a file) and applies it w/o doing all the necessary checks.
 * Prysm: [https://docs.prylabs.network/docs/prysm-usage/checkpoint-sync](https://docs.prylabs.network/docs/prysm-usage/checkpoint-sync)
 * Teku: [https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/](https://docs.teku.consensys.net/en/latest/HowTo/Get-Started/Checkpoint-Start/)
 
+
+**Your Own Checkpoint Sync**
+
+You can checkpoint-sync from any up-to-date CL node, that has beacon API enabled.
+
+[samcm/checkpointz](https://github.com/samcm/checkpointz) is a tool that allows you to setup your own checkpoint sync endpoint and make it public if needed.
+
 **Public Checkpoint Sync Endpoints**
 
-Usually, you should strive to use your own nodes as source of data for checkpoint sync, but if you can’t, there are a couple of public places where you can sync from:
-
-* Open Endpoints
-    * Ethereum Foundation
-        * Goerli: [https://goerli.checkpoint-sync.ethdevops.io](https://goerli.checkpoint-sync.ethdevops.io)
-        * Sepolia: [https://sepolia.checkpoint-sync.ethdevops.io](https://sepolia.checkpoint-sync.ethdevops.io)
-        * Mainnet: TBD
-    * gateway.fm (link TBD)
-    * nethermind (link TB
-
-* Registration Needed
-    * Infura: [infura.io](https://infura.io); beacon API.
+[Community-maintained list of public checkpoint sync services](https://eth-clients.github.io/checkpoint-sync-endpoints/) -- use it if you don't have your own checkpoint sync endpoints or have no up-to-date consensus layer nodes.
 
 When syncing from one of the public sources, always validate that your node is synced to the correct chain. Use [this article](https://notes.ethereum.org/@launchpad/checkpoint-sync#Step-4) to learn how to do that.
 
 In Prysm you can also use `—-weak-subjectivity-checkpoint` flag (read more [here](https://docs.prylabs.network/docs/prysm-usage/parameters)).
-
 
 **Checkpoint Sync From A File**
 
