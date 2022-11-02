@@ -28,7 +28,7 @@ Welcome to the knowledge base of validator documentation.
 
 * [Backups, Disaster Recovery]
 
-* Clouds & Clusters
+* [Clouds & Clusters](reference/clusters.md)
 
 * [Key Management](reference/keys.md)
 
