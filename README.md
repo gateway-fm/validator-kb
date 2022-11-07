@@ -6,7 +6,7 @@ Welcome to the knowledge base of validator documentation.
 
 ## Documentation
 
-[Table Of Content](reference)
+[Table Of Contents](reference)
 
 ## Contributing
 
