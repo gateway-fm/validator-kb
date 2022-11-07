@@ -17,6 +17,8 @@ Welcome to the knowledge base of validator documentation.
 * [Validator Clients](reference/validator-clients.md)
 
 * [Monitoring](reference/monitoring.md)
+
+* [Migration](reference/server-migration.md)
     
 * [Alerting & Incident Response](reference/alerting.md)
 
@@ -26,16 +28,16 @@ Welcome to the knowledge base of validator documentation.
 
 * [Resources & Scaling](reference/resources.md) 
 
-* [Backups, Disaster Recovery]
+* [Backups, Disaster Recovery](reference/dr.md)
 
 * [Clouds & Clusters](reference/clusters.md)
 
 * [Key Management](reference/keys.md)
 
-* Security Guidelines
+* [Security Guidelines](reference/security.md)
 
 * [Onboarding users](reference/deposits.md)
 
 * [Updates & Releases](reference/updates-releases.md)
 
-* FAQ
+* [FAQ](reference/faq.md)
