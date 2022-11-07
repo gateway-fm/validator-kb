@@ -24,9 +24,15 @@
 
     * [Checkpoint Sync & Scaling](reference/nodes/cl/provisioning.md)
 
-    * [Updates](reference/nodes/cl/updates.md)
+    * [Tracking Software Updates](reference/nodes/cl/updates.md)
 
 * [Execution Layer](reference/nodes/el/)
+
+    * [Nodes](reference/nodes/cl/nodes.md)
+
+    * [Scaling & Snapshotting](reference/nodes/cl/provisioning.md)
+
+    * [Tracking Software Updates](reference/nodes/cl/updates.md)
 
 * [Validator Clients](reference/nodes/validator-clients/)
 
