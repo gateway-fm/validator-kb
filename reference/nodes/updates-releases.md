@@ -12,46 +12,15 @@ Secondly, it is important to keep track of the hardforks. If hardfork comes and 
 
 Most of the nodes are on GitHub. There is [a feature to notify of new releases](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions). Also you can use this [Slack bot](https://github.com/nightskylark/github-releases-slack-notifier) that notifies about new releases of software.
 
-There are the official channels to follow on Twitter, to be aware of new releases, bugs and features.
+## Where to track updates?
 
-**Nodes: Execution Layer**
+There are the official channels to follow on Twitter or other places, to be aware of new releases, bugs and features.
 
-* Go-Ethereum (Geth)
-    * Twitter: [https://twitter.com/go_ethereum](https://twitter.com/go_ethereum)
+* [Nodes: Execution Layer](el/updates.md)
 
-* Erigon 
-    * Twitter: [https://twitter.com/erigoneth](https://twitter.com/erigoneth)
-    * Newsletter: [https://erigon.substack.com](https://erigon.substack.com)
+* [Nodes: Consensus Layer](cl/updates.md)
 
-* Nethermind
-    * Twitter: [https://twitter.com/nethermindeth](https://twitter.com/nethermindeth)
-    * Blog: [https://medium.com/nethermind-eth](https://medium.com/nethermind-eth)
-
-**Nodes: Consensus Layer**
-
-* Prysm
-    * Twitter: [https://twitter.com/prylabs](https://twitter.com/prylabs)
-
-* Lighthouse
-    * Twitter: [https://twitter.com/sigp_io](https://twitter.com/sigp_io)
-
-* Lodestar
-    * Twitter: [https://twitter.com/lodestar_eth](https://twitter.com/lodestar_eth)
-
-* Teku
-    * Twitter: [https://twitter.com/Teku_ConsenSys](https://twitter.com/Teku_ConsenSys)
-
-* Nimbus 
-    * Twitter: [https://twitter.com/ethnimbus](https://twitter.com/ethnimbus)
-    * Newsletter: [https://subscribe.nimbus.guide/ ](https://subscribe.nimbus.guide/ )
-
-**Validator clients**
-
-* Dirk
-    * GitHub releases: [https://github.com/attestantio/dirk/releases](https://github.com/attestantio/dirk/releases)
-
-* Vouch
-    * GitHub releases: [https://github.com/attestantio/vouch/releases](https://github.com/attestantio/vouch/releases)
+* [Validator Clients](validator-clients/updates.md)
 
 **Hardforks & Other Information**
 

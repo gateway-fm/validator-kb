@@ -1,6 +1,8 @@
 # Nodes
 
-To run nodes, you need both [Consensus Layer](cl/) and [Execution Layer](el/).
+* [Consensus Layer](cl/) 
+
+* [Execution Layer](el/)
 
 
 ## Provisioning Nodes
@@ -12,11 +14,14 @@ nodes are ready to be validated.
 There are ways of how to quickly provision nodes on both layers.
 
 
-## Upgrading Nodes
+## Staying Up To Date
 
-see [Upgrades and Releases](upgrades-releases.md)
-
+* [Updates and Releases](updates-releases.md)
 
 ## Security, Networking & Sentries
+
+* [Execution Layer Security]()
+
+* [Consensus Layer Security]()
 
 ## Troubleshooting

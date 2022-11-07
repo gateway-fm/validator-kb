@@ -14,7 +14,7 @@ Welcome to the knowledge base of validator documentation.
 
 * [Nodes](reference/nodes/)
 
-* [Validator Clients](reference/validator-clients.md)
+    * [Validator Clients](reference/nodes/validator-clients/)
 
 * [Monitoring](reference/monitoring.md)
 
