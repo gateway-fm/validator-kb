@@ -4,40 +4,4 @@
 
 Welcome to the knowledge base of validator documentation.
 
-## Table Of Contents
-
-* [Basics](reference/basics.md)
-
-* [The Merge](reference/the-merge.md)
-
-* [Slashing & Penalties](reference/slashing-and-penalties.md)
-
-* [Nodes](reference/nodes/)
-
-    * [Validator Clients](reference/nodes/validator-clients/)
-
-* [Monitoring](reference/monitoring.md)
-
-* [Migration](reference/server-migration.md)
-    
-* [Alerting & Incident Response](reference/alerting.md)
-
-* [High Availability](reference/ha.md)
-
-* [Proposer-Builder Separation & MEV](reference/mev.md)
-
-* [Resources & Scaling](reference/resources.md) 
-
-* [Backups, Disaster Recovery](reference/dr.md)
-
-* [Clouds & Clusters](reference/clusters.md)
-
-* [Key Management](reference/keys.md)
-
-* [Security Guidelines](reference/security.md)
-
-* [Onboarding users](reference/deposits.md)
-
-* [Updates & Releases](reference/updates-releases.md)
-
-* [FAQ](reference/faq.md)
+[Table Of Content](reference)
