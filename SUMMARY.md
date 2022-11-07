@@ -20,14 +20,21 @@
 
 * [Consensus Layer](reference/nodes/cl/)
 
-* [Execution Layer](reference/nodes/cl/)
+* [Execution Layer](reference/nodes/el/)
 
 * [Validator Clients](reference/nodes/validator-clients/)
 
+* [Full vs Archival Nodes](reference/nodes/archival.md)
+
+* [Node Health](reference/nodes/health.md)
+
+* [Releases & Upgrades](reference/nodes/updates-releases.md)
 
 ### Part 3. High Availability
 
 ### Part 4. Security
+
+* [Key Management](reference/security/keys.md)
 
 ### Part 5. Misc
 
