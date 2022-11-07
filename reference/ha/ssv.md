@@ -1,4 +1,4 @@
-# Distributed Validator Clients
+# Distributed Key Management
 
 [**SSV: Secret Shared Validators**](https://ssv.network)
 
