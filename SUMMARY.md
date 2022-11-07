@@ -18,7 +18,7 @@
 
 ### Part 2. Nodes
 
-* [Consensus Layer](reference/nodes/cl/)
+* [Consensus Layer](reference/nodes/cl/README.md)
 
 * [Execution Layer](reference/nodes/el/)
 
