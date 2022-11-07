@@ -4,4 +4,10 @@
 
 Welcome to the knowledge base of validator documentation.
 
+## Documentation
+
 [Table Of Content](reference)
+
+## Contributing
+
+[Contribution Guidelines](CONTRIBUTING.md)
