@@ -28,11 +28,11 @@
 
 * [Execution Layer](reference/nodes/el/)
 
-    * [Nodes](reference/nodes/cl/nodes.md)
+    * [Nodes](reference/nodes/el/nodes.md)
 
-    * [Scaling & Snapshotting](reference/nodes/cl/provisioning.md)
+    * [Scaling & Snapshotting](reference/nodes/el/provisioning.md)
 
-    * [Tracking Software Updates](reference/nodes/cl/updates.md)
+    * [Tracking Software Updates](reference/nodes/el/updates.md)
 
 * [Validator Clients](reference/nodes/validator-clients/)
 
