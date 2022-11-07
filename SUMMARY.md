@@ -20,6 +20,12 @@
 
 * [Consensus Layer](reference/nodes/cl/README.md)
 
+    * [Nodes](reference/nodes/cl/nodes.md)
+
+    * [Checkpoint Sync & Scaling](reference/nodes/cl/provisioning.md)
+
+    * [Updates](reference/nodes/cl/updates.md)
+
 * [Execution Layer](reference/nodes/el/)
 
 * [Validator Clients](reference/nodes/validator-clients/)
