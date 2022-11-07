@@ -1,4 +1,4 @@
-# Welcome!
+# 1. Welcome!
 
 [![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/gateway-fm/validator-kb/badge)](https://www.gitpoap.io/gh/gateway-fm/validator-kb)
 
