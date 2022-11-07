@@ -32,6 +32,26 @@
 
 ### Part 3. High Availability
 
+* [Alerting](reference/ha/alerting.md)
+
+* [Monitoring](reference/ha/monitoring.md)
+
+* [Clusters](reference/ha/clusters.md)
+
+* [Client Diversity](reference/ha/diversity.md)
+
+* [Disaster Recovery](reference/ha/dr.md)
+
+* [Geo Distribution](reference/ha/geo.md)
+
+* [Failover & Redundancy](reference/ha/redundancy.md)
+
+* [Hardware Resources](reference/ha/resources.md)
+
+* [Migration](reference/ha/server-migratino.md)
+
+* [SSV & Distributed Validators](reference/ha/ssv.md)
+
 ### Part 4. Security
 
 * [Key Management](reference/security/keys.md)
