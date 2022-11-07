@@ -24,4 +24,4 @@ Layer is technically not forbidden, but this configuration is untested and not
 recommended.
 
 See also:
-* [Nodes](nodes)
+* [Nodes](nodes/)
