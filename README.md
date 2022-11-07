@@ -12,7 +12,7 @@ Welcome to the knowledge base of validator documentation.
 
 * [Slashing & Penalties](reference/slashing-and-penalties.md)
 
-* [Nodes](reference/nodes.md)
+* [Nodes](reference/nodes/)
 
 * [Validator Clients](reference/validator-clients.md)
 

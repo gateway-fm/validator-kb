@@ -32,7 +32,7 @@ Ideally you want a symmetric network with good throughout (100mb/s+) with proper
 
 ## CPU
 
-Both [Nodes](nodes.md) and [validator clients](validator-clients.md) require significant CPU resources. Nodes needs to be able to sync, verify consensus, build blocks (unless you use [MEV-Boost](mev.md) and propagate validator duties into the network. Validator clients need to be generating signatures, signing block payloads for, usually, multiple validators at a time.
+Both [Nodes](nodes/) and [validator clients](validator-clients.md) require significant CPU resources. Nodes needs to be able to sync, verify consensus, build blocks (unless you use [MEV-Boost](mev.md) and propagate validator duties into the network. Validator clients need to be generating signatures, signing block payloads for, usually, multiple validators at a time.
 
 It is not recommended to go below 16Ghz for every piece of the setup: CL, EL, Validator Client.
 

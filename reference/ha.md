@@ -68,12 +68,12 @@ It is also very important for the blockchain as a whole, that no part of the wor
 ## Client Diversity
 
 One risk that a node operator faces is a critical bug in a node. 
-Even though some aspects of it could be mitigated via a good upgrade process (see ["Upgrading Nodes"](nodes.md)),
+Even though some aspects of it could be mitigated via a good upgrade process (see ["Upgrading Nodes"](nodes/)),
 but there are some issues or security vulnerabilities that could be uncovered
 only when the issue is exploited in the real world.
 
 Ethereum has multiple nodes, both CL and EL, that are produced by different
-vendors, using different technologies (see also [Nodes](nodes.md)). That helps
+vendors, using different technologies (see also [Nodes](nodes/)). That helps
 to avoid these risks, but only if there are no supermajority of any nodes that
 will cause network to reach finality on a wrong chain.
 

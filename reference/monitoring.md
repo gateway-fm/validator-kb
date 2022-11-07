@@ -22,7 +22,7 @@ To get your nodes monitored, contact via Twitter [twitter.com/ethereumPools](htt
 
 [Grafana dashboard for validators](https://grafana.com/grafana/dashboards/13481-eth-validators/). This one looks like it wasn’t touched for a long time, so it might not be a good “out of the box” solutions, but might be a first step towards your own dashboard with the data you need.
 
-[RocketPool Grafana Dashboards for nodes](https://docs.rocketpool.net/guides/node/grafana.html#importing-the-rocket-pool-dashboard). Rocket Pool provides multiple dashboards for different types for [nodes](nodes.md) and [validator clients](validator-clients.md)
+[RocketPool Grafana Dashboards for nodes](https://docs.rocketpool.net/guides/node/grafana.html#importing-the-rocket-pool-dashboard). Rocket Pool provides multiple dashboards for different types for [nodes](nodes/) and [validator clients](validator-clients.md)
 
 **Client Teams Dashboards**
 

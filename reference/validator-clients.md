@@ -14,7 +14,7 @@ client.
 
 ## Built-in Validator Clients
 
-Each [beacon node](nodes.md) team has a validator client.
+Each [beacon node](nodes/) team has a validator client.
 
 * [Prysm](https://docs.prylabs.network/docs/how-prysm-works/prysm-validator-client)
 * [Lighthouse](https://lighthouse-book.sigmaprime.io/mainnet-validator.html#docker-users)
