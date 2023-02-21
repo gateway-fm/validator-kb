@@ -6,47 +6,53 @@
 
 * [Contributing](CONTRIBUTING.md)
 
-### Part 1. Basics
-
+### Ethereum 2.0
 * [The Merge](reference/basics/the-merge.md)
 
-* [EthStaker Guides](reference/basics/ethstaker.md)
+* [Proof of Stake]
 
-* [Onboarding Users](reference/basics/deposits.md)
+* [The Beacon Chain]
 
-* [Slashing & Penalties](reference/basics/slashing-and-penalties.md)
+* [Nodes]
+  * [Consensus Layer](reference/nodes/cl/README.md)
 
-### Part 2. Nodes
+      * [Nodes](reference/nodes/cl/nodes.md)
 
-* [Consensus Layer](reference/nodes/cl/README.md)
+      * [Checkpoint Sync & Scaling](reference/nodes/cl/provisioning.md)
 
-    * [Nodes](reference/nodes/cl/nodes.md)
+      * [Tracking Software Updates](reference/nodes/cl/updates.md)
 
-    * [Checkpoint Sync & Scaling](reference/nodes/cl/provisioning.md)
+  * [Execution Layer](reference/nodes/el/)
 
-    * [Tracking Software Updates](reference/nodes/cl/updates.md)
+      * [Nodes](reference/nodes/el/nodes.md)
 
-* [Execution Layer](reference/nodes/el/)
+      * [Scaling & Snapshotting](reference/nodes/el/provisioning.md)
 
-    * [Nodes](reference/nodes/el/nodes.md)
+      * [Tracking Software Updates](reference/nodes/el/updates.md)
 
-    * [Scaling & Snapshotting](reference/nodes/el/provisioning.md)
+  * [Validator Clients](reference/nodes/validator-clients/)
 
-    * [Tracking Software Updates](reference/nodes/el/updates.md)
+  * [Full vs Archival Nodes](reference/nodes/archival.md)
 
-* [Validator Clients](reference/nodes/validator-clients/)
+* [Staking]
 
-* [Full vs Archival Nodes](reference/nodes/archival.md)
+  * [Slashing & Penalties](reference/basics/slashing-and-penalties.md)
+
+  * [MEV & Block Production](reference/mev.md)
+
+  * [EthStaker Guides](reference/basics/ethstaker.md)
+
+  * [Onboarding Users](reference/basics/deposits.md)
+
+### Ethereum Staking Operations
 
 * [Node Health](reference/nodes/health.md)
 
 * [Releases & Upgrades](reference/nodes/updates-releases.md)
 
-### Part 3. High Availability
-
-* [Alerting](reference/ha/alerting.md)
-
 * [Monitoring](reference/ha/monitoring.md)
+
+  * [Alerting](reference/ha/alerting.md)
 
 * [Clusters](reference/ha/clusters.md)
 
@@ -64,12 +70,10 @@
 
 * [SSV & Distributed Validators](reference/ha/ssv.md)
 
-### Part 4. Security
-
 * [Key Management](reference/security/keys.md)
 
-### Part 5. Misc
+### Gateway.FM validator service
 
-* [MEV & Block Production](reference/mev.md)
+* Gateway.FM grow
 
-* [FAQ](reference/faq.md)
+* Validator stats
