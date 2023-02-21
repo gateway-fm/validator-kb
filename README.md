@@ -6,6 +6,8 @@ Welcome to the knowledge base for Ethereum validator node operators.
 
 ## Knowledge Base
 
+ETH2 and Clients
+
 [Table Of Contents](reference)
 
 ## Contributing
