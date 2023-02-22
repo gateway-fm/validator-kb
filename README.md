@@ -2,9 +2,9 @@
 
 [![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/gateway-fm/validator-kb/badge)](https://www.gitpoap.io/gh/gateway-fm/validator-kb)
 
-Welcome to the knowledge base for Ethereum validators. In here you
-will find resources about Ethereum 2.0, ETH staking and Gateway.FM validator
-service. To start, please follow the links below:
+Welcome to the Ethereum Validator Knowledge Base, where you can find resources
+about Ethereum 2.0, ETH staking and Gateway.FM validator service. To get started,
+please follow the links below:
 
 * Ethereum 2.0 knowledge base
 * Ethereum staking and operations
@@ -12,4 +12,5 @@ service. To start, please follow the links below:
 
 ## Contributing
 
-Do you want to contribute? Don't forget to check out our [contribution guidelines](CONTRIBUTING.md)
+Do you want to contribute? We welcome your input! Please check out our
+[contribution guidelines](CONTRIBUTING.md) to learn how to get involved.
