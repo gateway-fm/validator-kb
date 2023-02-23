@@ -9,11 +9,11 @@
 ### Ethereum 2.0
 * [The Merge](reference/basics/the-merge.md)
 
-* [Proof of Stake]
+* [Proof of Stake](reference/eth2/proof-of-stake.md)
 
-* [The Beacon Chain]
+* [The Beacon Chain](reference/eth2/the-beacon-chain.md)
 
-* [Nodes]
+* [Ethereum Node](reference/eth2/nodes/README.md)
 
   * [Consensus Layer](reference/nodes/cl/README.md)
 
@@ -35,7 +35,7 @@
 
   * [Full vs Archival Nodes](reference/nodes/archival.md)
 
-* [Staking]
+* [Staking](reference/eth2/staking/README.md)
 
   * [Slashing & Penalties](reference/basics/slashing-and-penalties.md)
 
@@ -75,6 +75,6 @@
 
 ### Gateway.FM validator service
 
-* Gateway.FM grow
+* [Gateway.FM grow](reference/gateway-fm-grow/README.md)
 
-* Validator stats
+* [Validator stats](reference/gateway-fm-grow/validator-stats.md)
