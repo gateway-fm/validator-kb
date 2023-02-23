@@ -55,7 +55,7 @@
 
   * [Alerting](reference/ha/alerting.md)
 
-* [Clusters](reference/ha/clusters.md)
+* [Deployment](reference/staking-operation/deployment.md)
 
 * [Client Diversity](reference/ha/diversity.md)
 
