@@ -12,6 +12,8 @@ please follow the links below:
 
 ## Contributing
 
-Do you want to contribute? We welcome your input! Please create pull requests
-to [https://github.com/gateway-fm/validator-kb](https://github.com/gateway-fm/validator-kb) and check out our
-[contribution guidelines](CONTRIBUTING.md) to learn how to get involved.
+Are you passionate about contributing? We'd love to have you on board! To get
+started, submit pull requests to
+[https://github.com/gateway-fm/validator-kb](https://github.com/gateway-fm/validator-kb)
+and don't forget to review our [contribution guidelines](CONTRIBUTING.md) to
+learn how you can make a meaningful impact.
