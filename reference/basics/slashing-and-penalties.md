@@ -45,7 +45,7 @@ keep your nodes up to date. You can read more in the following chapters:
 
 * [Monitoring And Alerting](monitoring.md)
 
-* [Updates & Releases](updates-releases.md)
+* [Keep node up-to-date](reference/nodes/updates-releases.md)
 
 ## Further Reading
 
