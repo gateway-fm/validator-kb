@@ -49,7 +49,7 @@
 
 * [Node Health](reference/nodes/health.md)
 
-* [Releases & Upgrades](reference/nodes/updates-releases.md)
+* [Keep node up-to-date](reference/nodes/updates-releases.md)
 
 * [Monitoring](reference/ha/monitoring.md)
 
