@@ -31,9 +31,12 @@ While these challenges can seem overwhelming, adopting effective strategies, pro
 A software inventory is a comprehensive record of all software components within your system, including client implementations, versions, and configurations. Maintaining an up-to-date software inventory is crucial for successful software upgrades, as it helps you better plan for and execute upgrades while minimizing the risk of unexpected issues. The following approaches can help you achieve a well-organized software inventory:
 
 - **Metrics:** Many clients expose version information through their Prometheus metrics, making it simple to create a Grafana panel that displays version information for all your workloads. By visualizing this data, you can easily monitor software versions and identify any discrepancies that may require attention.
+
 ![A panel for Lighthouse version distribution](../../assets/lighthouse-version-prometheus.png)
+
 - **Third-party tools:** Leverage third-party tools to help manage your software inventory. There are many open-source tools available for generating inventory reports. If you're using Kubernetes, you can use [Kubernetes Inventory Docker image](https://hub.docker.com/r/linkbn/kubernetes-inventory) or [Anchore's k8s-inventory](https://github.com/anchore/k8s-inventory) to help you track client versions in your deployments.
 - **In-house solution:** Develop a custom in-house solution tailored to your specific needs, such as a simple shell script. Creating a solution that fits your organization's requirements allows for seamless integration with your existing systems and processes.
+
 ![Gateway.FM in-house tool](../../assets/gateway-fm-inhouse-tool.png)
 
 ### 2. Stay informed about new software releases
@@ -42,7 +45,9 @@ To keep your software up to date, it's essential to stay informed about the late
 
 - **GitHub's built-in subscription feature:** Use the native subscription feature on GitHub to receive notifications about new releases from your followed repositories.
 - **NewReleases.io:** [NewReleases.io](https://newreleases.io/) is a handy service that allows you to track new releases across various platforms, including GitHub.
+
 ![Track releases on newreleases.io](../../assets/newreleases-io.png)
+
 - **Other alternatives:** Explore [alternative services](https://alternativeto.net/software/newreleases/) for monitoring new software releases and choose the one that best suits your needs.
 
 Alternatively, you can develop a custom bot tailored to your requirements for tracking new releases and staying informed about the latest updates.
