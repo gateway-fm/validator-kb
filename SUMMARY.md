@@ -6,7 +6,7 @@
 
 * [Contributing](CONTRIBUTING.md)
 
-### Ethereum 2.0
+### Ethereum Base Knowledge
 * [The Merge](reference/basics/the-merge.md)
 
 * [Proof of Stake](reference/eth2/proof-of-stake.md)
