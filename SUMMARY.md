@@ -9,8 +9,6 @@
 ### Ethereum Base Knowledge
 * [The Merge](reference/basics/the-merge.md)
 
-* [Proof of Stake](reference/eth2/proof-of-stake.md)
-
 * [The Beacon Chain](reference/eth2/the-beacon-chain.md)
 
 * [Ethereum Node](reference/eth2/nodes/README.md)
