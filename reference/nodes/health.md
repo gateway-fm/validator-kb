@@ -3,7 +3,7 @@
 To serve as a validator, both CL and EL need to be up to date with the
 network. There are a couple of techniques of how to check that.
 
-All this healthchecks data should lead to a [monitoring tool](monitoring.md) of your choice.
+All this healthchecks data should lead to a [monitoring tool](../ha/monitoring.md) of your choice.
 
 ### Internal healthchecks
 
