@@ -4,7 +4,7 @@
 
 Rolling out software upgrades is a common operation task. It is often overlooked during the service scaling up. Ensuring that the new release is deployed in time is particularly important for running Ethereum or blockchain infrastructure in general because:
 
-* New upgrades & forks are only supported by the new release, failing to do so in time will result in the node stopping syncing or producing invalid blocks. In the worst-case scenario, it will cause validators going offline and getting slashed.
+* New upgrades & forks are only supported by the new release, failing to do so in time will result in the node stopping syncing or producing invalid blocks. In the worst-case scenario, it will cause validators going offline.
 
 * New releases might contain security patches. It will harden the network and your system, preventing financial or data loss.
 
