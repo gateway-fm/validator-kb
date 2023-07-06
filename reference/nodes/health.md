@@ -1,5 +1,20 @@
 # Nodes Health
 
+How can you know a node is healthy? Most importantly how can you check it programatically? It is one of the criterias to monitor validator service at scale. 
+
+## Basic health check from the node
+Most of the node clients have implemented the healthcheck API endpoint. For example, Lighthouse has an endpoint called "/lighthouse/health". It should return "HTTP 200 OK" when everything is setup correctly, all other responses mean the node software is having issue.
+
+It is usually the most basic check and only tells you that software is up and running. So one shouldn't rely on it solely.
+
+## Different health symptoms
+
+Here are a few common symtoms and their causes.
+
+
+Some of the following symtoms are urgent, which means it has been fixed immediately. Some will only show that the system is degrading but it will 
+It's important to be able to check a node health
+How to check if a node is healthy
 To serve as a validator, both CL and EL need to be up to date with the
 network. There are a couple of techniques of how to check that.
 
